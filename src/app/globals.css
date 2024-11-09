@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    min-height: 300px;
+    max-height: 400px;
+    height: auto;
+    transition: 0.3s ease-in-all;
+    -webkit-transition: 0.3s ease-in-all;
+    -moz-transition: 0.3s ease-in-all;
+    -ms-transition: 0.3s ease-in-all;
+    -o-transition: 0.3s ease-in-all;
+}
+
+img:hover {
+    scale:102%;
+}
